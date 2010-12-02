@@ -15,9 +15,12 @@ a:focus, a:hover {text-decoration: underline;}
 a:visited { color:#005a9c; }
 /* ====== Lists ======*/
 /* numbered list */
-ol.simpleList li{list-style-type: decimal; margin-left:40px;}
+ol li{list-style-type: decimal; margin-left:40px;}
 /* standard list */
-ul.simpleList li{list-style-type:disc; margin-left:40px;}
+ul li{list-style-type:disc; margin-left:40px;}
+/* plain lists */
+ol.plain li, ul.plain li{list-style-type: none; margin-left:0;}
+
 /* ====== blockquote ====== */
 cite{display:block; text-align:right; padding-top: 10px;}
 /* ====== callout ====== */
