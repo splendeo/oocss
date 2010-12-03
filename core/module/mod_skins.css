@@ -107,7 +107,3 @@
 .gonz{background:url(skin/gc_header.png) no-repeat left top;}/* messed up */
 .online{background: #9a9400 url(skin/online.png) repeat-x left top;color: #000;font-size:120%;padding:5px 10px;}
 .online h1,.online h2,.online h3,.online h4,.online h5,.online h6{font-size:100%;color:#000;padding:0;}
-.help{background: #b20029 url(skin/help.png) repeat-x left top;color: #fff;font-size:120%;padding:5px 10px;}
-.help h1,.help h2,.help h3,.help h4,.help h5,.help h6{font-size:100%;color:#fff;padding:0;}
-.info{background: #636363 url(skin/info.png) repeat-x left top;color: #fff;font-size:120%;padding:5px 10px;}
-.info h1,.info h2,.info h3,.info h4,.info h5,.info h6{font-size:100%;color:#fff;padding:0;}
