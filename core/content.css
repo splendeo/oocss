@@ -11,7 +11,7 @@ code{color:#0B8C8F;}
 .important a{font-weight:bold;}/* what is this? */
 /* links */
 a {color: #2c4460; text-decoration: none;}
-a:focus, a:hover {text-decoration: underline;}
+a:hover {text-decoration: underline;}
 a:visited { color:#005a9c; }
 /* ====== Lists ======*/
 /* numbered list */
