@@ -1,5 +1,5 @@
 /* core */
-@import url("libraries.css");
+@import url("reset.css");
 
 @import url("template/template.css");
 /*@import url("template/template_debug.css");*/
