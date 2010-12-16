@@ -9,7 +9,6 @@
 
 
 @import url("module/mod.css");
-@import url("module/mod_skins.css");
 /*@import url("module/mod_debug.css");*/
 
 @import url("media/media.css");
@@ -21,5 +20,4 @@
 @import url("heading/heading.css");
 
 @import url("table/table.css");
-@import url("table/table_skins.css");
 /*@import url("table/table_debug.css");*/
