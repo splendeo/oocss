@@ -2,3 +2,8 @@
 /*@import url("../debug/debug.css");*/
 @import url("../plugins/plugins.css");
 @import url("../skins/skins.css");
+
+/* ====== special formatting classes ====== */
+.detail{color: #777; font-size:11px;display:block;}
+/* ====== images ====== */
+.icon{margin-right: 5px;}
