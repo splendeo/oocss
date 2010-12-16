@@ -1,16 +1,16 @@
 @import url("reset.css");
 
-@import url("template/template.css");
+@import url("template.css");
 
-@import url("grid/grid.css");
+@import url("grid.css");
 
-@import url("module/module.css");
+@import url("module.css");
 
-@import url("media/media.css");
+@import url("media.css");
 
 @import url("custom.css");
-@import url("heading/heading.css");
-@import url("spacing/space.css");
-@import url("heading/heading.css");
+@import url("heading.css");
+@import url("spacing.css");
+@import url("heading.css");
 
-@import url("table/table.css");
+@import url("table.css");
