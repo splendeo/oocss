@@ -1,5 +1,5 @@
 @import url("../oocss.css");
-/*@import url("../debug/debug.css");*/
+/*@import url("../src/debug/debug.css");*/
 
 /* use all plugins */
 @import url("../plugins/breadcrumb/breadcrumb.css");
