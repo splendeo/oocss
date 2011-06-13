@@ -6,6 +6,7 @@ namespace :oocss do
 
   desc "regenerate the oocss.css file"
   task :regen do
+    sh 'rm -f all.min.css'
     sh 'juicer merge all.css'
   end
 
