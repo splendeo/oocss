@@ -42,7 +42,19 @@ body{_text-align:center;}/* IE5.5 */
 .size2of5{width:40%;}
 .size3of5{width:60%;}
 .size4of5{width:80%;}
+
+.offset1of2{padding-left:50%;}
+.offset1of3{padding-left:33.33333%;}
+.offset2of3{padding-left:66.66666%;}
+.offset1of4{padding-left:25%;}
+.offset3of4{padding-left:75%;}
+.offset1of5{padding-left:20%;}
+.offset2of5{padding-left:40%;}
+.offset3of5{padding-left:60%;}
+.offset4of5{padding-left:80%;}
+
 .lastUnit{float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px;}
+
 
 /*
 Copyright (c) 2009, Nicole Sullivan. All rights reserved.
@@ -179,6 +191,11 @@ th, td{vertical-align:top;padding:10px;}
 .txtB, table .txtB, table tr .txtB{vertical-align:bottom;}
 .txtM, table .txtM, table tr .txtM{vertical-align:middle;}
 
+/* Stolen from http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,.clearfix:after{content:""; display:table;}
+.clearfix:after{clear:both;}
+.clearfix{*zoom:1;}
+
 /* core */
 
 
@@ -194,6 +211,9 @@ th, td{vertical-align:top;padding:10px;}
 
 
 /*@import url(core/table/table_debug.css?jcb=1321963669);*/
+
+
+
 
 
 /*@import url("plugins/plugins.css?jcb=1321964229");*/
