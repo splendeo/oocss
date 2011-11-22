@@ -11,4 +11,16 @@
 .size2of5{width:40%;}
 .size3of5{width:60%;}
 .size4of5{width:80%;}
+
+.offset1of2{padding-left:50%;}
+.offset1of3{padding-left:33.33333%;}
+.offset2of3{padding-left:66.66666%;}
+.offset1of4{padding-left:25%;}
+.offset3of4{padding-left:75%;}
+.offset1of5{padding-left:20%;}
+.offset2of5{padding-left:40%;}
+.offset3of5{padding-left:60%;}
+.offset4of5{padding-left:80%;}
+
 .lastUnit{float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px;}
+
