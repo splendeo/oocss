@@ -30,11 +30,3 @@ cite{display:block; text-align:right; padding-top: 10px;}
 .callout span.quotLast{vertical-align:middle;}
 /* ====== image treatments (get more from jason santa maria) ====== */
 .caption{font-size:13px; color:#666666; font-style:italic;padding-top:0;}
-/* will need to either
-1. find a way to capture the width of the caption in the width of the image or flash
-2. Set some default widths, mby use flickr widths?
-*/
-/* ====== special formatting classes ====== */
-.detail{color: #777; font-size:11px;display:block;}
-/* ====== images ====== */
-.icon{margin-right: 5px;}
