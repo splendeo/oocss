@@ -23,10 +23,3 @@ ul li{list-style-type: disc; margin-left:40px;}
 ul.plain li, ol.plain li{ list-style-type: none; margin-left:0;}
 /* ====== blockquote ====== */
 cite{display:block; text-align:right; padding-top: 10px;}
-/* ====== callout ====== */
-.callout{font-size:189%;color:#999999; font-style:italic;}
-.callout cite{display:block; text-align:right;padding-top: 30px; font-size:69.25%;}
-.callout span.quot{font-size: 500%; vertical-align: sub; color:#e2e2e2; line-height:25px; font-weight:bold;}
-.callout span.quotLast{vertical-align:middle;}
-/* ====== image treatments (get more from jason santa maria) ====== */
-.caption{font-size:13px; color:#666666; font-style:italic;padding-top:0;}
