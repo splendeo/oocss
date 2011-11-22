@@ -76,12 +76,6 @@
 .excerpt .top{height:1px;}
 .excerpt .bottom{height:6px;margin-top:-6px;}/* margin top equal to - height of bottom */
 .excerpt .br,.excerpt .bl{height:12px;margin-top:-6px;}/* margin top = bottom height - corner height */
-/* ----- sommers (extends pop) ----- */
-.sommers .inner{_border:3px solid #D7D7D7;}/*IE6 backup no alpha transparency */
-.sommers,.sommers .inner,.sommers b{background-image:url(skin/glow_7px.png);_background-image:none;}
-.sommers{margin:3px 20px 20px 3px;}
-/* ----- gonzalo ----- */
-.gonzalo, .gonzalo .inner, .gonzalo b{background-image:url(skin/gc.png);}
 /* ====== Background blocks ====== */
 .sale .inner{background:red none;}
 .nicole .inner{background:#c01c41 none; color:#fff;}
