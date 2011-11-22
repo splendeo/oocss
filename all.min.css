@@ -1,1 +1,224 @@
-html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}body{_text-align:center;}.main{display:table-cell;*display:block;width:auto;}.body,.main{*zoom:1;}.body:after,.main:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0!important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}.page{margin:0 auto;width:950px;_text-align:left;}.oldSchool{width:750px;}.gs960{width:960px;}.liquid{width:auto;margin:0;}.leftCol{float:left;width:250px;_margin-right:-3px;}.rightCol{float:right;width:300px;_margin-left:-3px;}.gMail{width:160px;}.gCal{width:180px;}.yahoo{width:240px;}.myYahoo{width:300px;}.line:after,.lastUnit:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0!important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}.line{*zoom:1;}.unit{float:left;}.size1of1{float:none;}.size1of2{width:50%;}.size1of3{width:33.33333%;}.size2of3{width:66.66666%;}.size1of4{width:25%;}.size3of4{width:75%;}.size1of5{width:20%;}.size2of5{width:40%;}.size3of5{width:60%;}.size4of5{width:80%;}.lastUnit{display:table-cell;float:none;width:auto;*display:block;*zoom:1;_position:relative;_left:-3px;_margin-right:-3px;}.mod{margin:10px;}.bd,.ft,.hd{display:inline-block;width:100%;*display:block;*width:auto;zoom:1;}.inner:after,.hd:after,.bd:after,.ft:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0!important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}.inner{position:relative;}b{display:block;background-repeat:no-repeat;font-size:1%;position:relative;z-index:10;}.tl,.tr,.bl,.br{height:10px;width:10px;float:left;}.tl{background-position:left top;}.tr{background-position:right top;}.bl{background-position:left bottom;}.br{background-position:right bottom;}.br,.tr{float:right;}.tr,.tl{overflow:hidden;margin-bottom:-32000px;}.bl,.br{margin-top:-10px;}.top{background-position:center top;}.bottom{background-position:center bottom;_zoom:1;}.complex{overflow:hidden;*position:relative;*zoom:1;}.complex .tl,.complex .tr{height:32000px;margin-bottom:-32000px;width:10px;}.complex .top{height:5px;}.complex .bottom{height:5px;}.pop{overflow:visible;margin:10px 20px 20px 10px;background-position:left top;}.pop .inner{right:-10px;bottom:-10px;background-position:right bottom;padding:0 10px 10px 0;}.pop .tl,.pop .br{display:none;}.pop .bl{bottom:-10px;}.pop .tr{float:right;margin-right:-10px;_display:inline;/fix double margin bug/;}.media{margin:10px;}.media:after,.bd:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0!important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}.media .bd{display:table-cell;zoom:1;}.media .bd>:first-child{margin-top:0;}.media .bd>:last-child{margin-bottom:0;}.media .img{float:left;}.media .img img{display:block;}.media .imgExt{float:right;}body{font-family:"Myriad Pro","Segoe UI",Helvetica,Arial,sans-serif;}img{display:block;}em{font-style:italic;}strong{font-weight:bold;}hr{border:5px solid #e2e2e2;border-width:0 0 5px 0;margin:20px 10px 10px 10px;}code{color:#0B8C8F;}.important a{font-weight:bold;}a{color:#2c4460;text-decoration:none;}a:focus,a:hover{text-decoration:underline;}a:focus{background-color:#FFC;}a:visited{color:#005a9c;}ol.simpleList li{list-style-type:decimal;margin-left:40px;}ul.simpleList li{list-style-type:disc;margin-left:40px;}cite{display:block;text-align:right;padding-top:10px;}.callout{font-size:189%;color:#999;font-style:italic;}.callout cite{display:block;text-align:right;padding-top:30px;font-size:69.25%;}.callout span.quot{font-size:500%;vertical-align:sub;color:#e2e2e2;line-height:25px;font-weight:bold;}.callout span.quotLast{vertical-align:middle;}.caption{font-size:13px;color:#666;font-style:italic;padding-top:0;}.detail{color:#777;font-size:11px;display:block;}.icon{margin-right:5px;}h1,.h1{font-size:196%;font-weight:normal;font-style:normal;color:#AE0345;}h2,.h2{font-size:167%;font-weight:normal;font-style:normal;color:#AE0345;}h3,.h3{font-size:146.5%;font-weight:normal;font-style:normal;color:#DF2B72;}h4,.h4{font-size:123.1%;font-weight:normal;font-style:normal;color:#333;}h5,.h5{font-size:108%;font-weight:bold;font-style:normal;color:#AE0345;}h6,.h6{font-size:108%;font-weight:normal;font-style:italic;color:#333;}.category{font-size:108%;font-weight:normal;font-style:normal;text-transform:uppercase;color:#333;}.category a{color:#333;}h1,h2,h3,h4,h5,h6,ul,ol,dl,p,blockquote,.media{margin:10px;}h1,h2,h3,h4,h5,h6,img{padding-bottom:0;}pre{margin:10px;}table h1,table h2,table h3,table h4,table h5,table h6,table p,table ul,table ol,table dl{padding:0;}.ptn,.pvn,.pan{padding-top:0;}.pts,.pvs,.pas{padding-top:5px;}.ptm,.pvm,.pam{padding-top:10px;}.ptl,.pvl,.pal{padding-top:20px;}.prn,.phn,.pan{padding-right:0;}.prs,.phs,.pas{padding-right:5px;}.prm,.phm,.pam{padding-right:10px;}.prl,.phl,.pal{padding-right:20px;}.pbn,.pvn,.pan{padding-bottom:0;}.pbs,.pvs,.pas{padding-bottom:5px;}.pbm,.pvm,.pam{padding-bottom:10px;}.pbl,.pvl,.pal{padding-bottom:20px;}.pln,.phn,.pan{padding-left:0;}.pls,.phs,.pas{padding-left:5px;}.plm,.phm,.pam{padding-left:10px;}.pll,.phl,.pal{padding-left:20px;}.mtn,.mvn,.man{margin-top:0;}.mts,.mvs,.mas{margin-top:5px;}.mtm,.mvm,.mam{margin-top:10px;}.mtl,.mvl,.mal{margin-top:20px;}.mrn,.mhn,.man{margin-right:0;}.mrs,.mhs,.mas{margin-right:5px;}.mrm,.mhm,.mam{margin-right:10px;}.mrl,.mhl,.mal{margin-right:20px;}.mbn,.mvn,.man{margin-bottom:0;}.mbs,.mvs,.mas{margin-bottom:5px;}.mbm,.mvm,.mam{margin-bottom:10px;}.mbl,.mvl,.mal{margin-bottom:20px;}.mln,.mhn,.man{margin-left:0;}.mls,.mhs,.mas{margin-left:5px;}.mlm,.mhm,.mam{margin-left:10px;}.mll,.mhl,.mal{margin-left:20px;}.data{position:relative;zoom:1;vertical-align:top;text-align:left;}.data table{width:100%;table-layout:fixed;}.txtC,table .txtC,table tr .txtC{text-align:center;}.txtL,table .txtL,table tr .txtL{text-align:left;}.txtR,table .txtR,table tr .txtR{text-align:right;}.txtT,table .txtT,table tr .txtT{vertical-align:top;}.txtB,table .txtB,table tr .txtB{vertical-align:bottom;}.txtM,table .txtM,table tr .txtM{vertical-align:middle;}.data th,.data td{padding:3px 20px;}
+/*
+Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 3.0.0pr2
+*/
+/* reset */
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+/* fonts */
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+/* **************** TEMPLATE ***************** */
+/* ====== Page Head, Body, and Foot ====== */
+body{_text-align:center;}/* IE5.5 */
+.main{display:table-cell;*display:block;width:auto;}
+.body,.main{*zoom:1;}
+.body:after,.main:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0 !important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
+.page{margin:0 auto;width:950px;_text-align:left;} /* wraps other template elems to set width */ /* text-align IE5.5 */
+/* "old school" and "liquid" extend page to allow for different page widths */
+.oldSchool{width:750px;}
+.gs960{width:960px;}
+.liquid{width:auto;margin:0;}
+/* ====== Columns ====== */
+.leftCol{float:left;width:250px;_margin-right:-3px;}
+.rightCol{float:right;width:300px;_margin-left:-3px;}
+/* extend columns to allow for common column widths */
+.gMail{width:160px;}
+.gCal{width:180px;}
+.yahoo{width:240px;}
+.myYahoo{width:300px;}
+
+.line,.lastUnit{overflow:hidden; *overflow:visible;*zoom:1;}
+.unit{float:left;}
+.unitRight{float:right;}
+.size1of1{float:none;}
+.size1of2{width:50%;}
+.size1of3{width:33.33333%;}
+.size2of3{width:66.66666%;}
+.size1of4{width:25%;}
+.size3of4{width:75%;}
+.size1of5{width:20%;}
+.size2of5{width:40%;}
+.size3of5{width:60%;}
+.size4of5{width:80%;}
+.lastUnit{float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px;}
+/*
+Copyright (c) 2009, Nicole Sullivan. All rights reserved.
+Code licensed under the BSD License:
+version: 0.2
+*/
+/* **************** BLOCK STRUCTURES ***************** */
+/* mod */
+.mod{margin:10px;}
+.mod .inner{/*background: url(core/module/skin/transparent.png) repeat left top;*/}
+.bd,.ft, .hd{overflow:hidden; *overflow:visible; zoom:1;}
+b.top, b.top b, b.bottom, b.bottom b{display:block;background-repeat:no-repeat;font-size:1%;position:relative;z-index:10;}
+.tl, .tr, .bl, .br{height:10px; width:10px;float:left;}
+.tl{background-position: left top;}
+.tr{background-position: right top;}
+.bl{background-position: left bottom;}
+.br{background-position: right bottom;}
+.br,.tr{float:right;}
+.tr, .tl{overflow:hidden;margin-bottom:-32000px;}/* margin bottom needs to be < -9px */
+.bl,.br{margin-top:-10px;}
+.top{background-position:center top;}
+.bottom{background-position:center bottom;_zoom:1;}/* this zoom required for IE5.5 only*/
+/* complex */
+.complex{overflow:hidden;*position:relative;*zoom:1;}/* position/zoom required for IE7, 6, 5.5 */
+.complex .tl, .complex .tr{height:32000px; margin-bottom:-32000px;width:10px;}
+.complex .bl, .complex .br{/*margin-top:0;*/}
+.complex .top{height:5px;}
+.complex .bottom{height:5px;/*margin-top:-10px;*/}
+/* pop */
+.pop{overflow:visible;margin: 10px 20px 20px 10px; background-position:left top;}
+.pop .inner{right:-10px; bottom:-10px; background-position:right bottom;padding:0 10px 10px 0;}
+.pop .tl, .pop .br{display:none;}
+.pop .bl{bottom:-10px;}
+.pop .tr{float:right;margin-right:-10px;_display:inline; /*fix double margin bug*/ }
+
+/* ====== media (requires mod.css) ====== */
+.media{overflow:hidden;*overflow:visible;zoom:1;}
+.media .img{float:left;/*margin-right: 10px;*/}
+.media .img img{display:block;}
+.media .imgExt{float:right; /*margin-left: 10px;*/}
+
+body{font-family:"Myriad Pro","Segoe UI",Helvetica, Arial, sans-serif;}
+/* **************** CONTENT OBJECTS ***************** */
+
+/* ====== Elements ====== */
+img{display:block;}
+em{font-style: italic;}
+strong{font-weight:bold;}
+hr{border: 5px solid #e2e2e2; border-width: 0 0 5px 0; margin: 20px 10px 10px 10px;}
+code{color:#0B8C8F;}
+
+.important a{font-weight:bold;}/* what is this? */
+/* links */
+a {color: #2c4460; text-decoration: none;}
+a:focus, a:hover {text-decoration: underline;}
+a:focus{background-color:#FFFFCC;}
+a:visited { color:#005a9c; }
+/* ====== Lists ======*/
+/* numbered list */
+ol.simpleList li{list-style-type: decimal; margin-left:40px;}
+/* standard list */
+ul.simpleList li{list-style-type:disc; margin-left:40px;}
+/* ====== blockquote ====== */
+cite{display:block; text-align:right; padding-top: 10px;}
+/* ====== callout ====== */
+.callout{font-size:189%;color:#999999; font-style:italic;}
+.callout cite{display:block; text-align:right;padding-top: 30px; font-size:69.25%;}
+.callout span.quot{font-size: 500%; vertical-align: sub; color:#e2e2e2; line-height:25px; font-weight:bold;}
+.callout span.quotLast{vertical-align:middle;}
+/* ====== image treatments (get more from jason santa maria) ====== */
+.caption{font-size:13px; color:#666666; font-style:italic;padding-top:0;}
+/* will need to either
+1. find a way to capture the width of the caption in the width of the image or flash
+2. Set some default widths, mby use flickr widths?
+*/
+/* ====== special formatting classes ====== */
+.detail{color: #777; font-size:11px;display:block;}
+/* ====== images ====== */
+.icon{margin-right: 5px;}
+/* ====== Headings ====== */
+/* .h1-.h6 classes should be used to maintain the semantically appropriate heading levels - NOT for use on non-headings */
+h1, .h1{font-size:196%; font-weight:normal; font-style: normal; color:#AE0345;}
+h2, .h2{font-size:167%; font-weight:normal; font-style: normal; color:#AE0345;}
+h3, .h3{font-size:146.5%; font-weight:normal; font-style: normal; color:#DF2B72;}
+h4, .h4{font-size:123.1%; font-weight:normal; font-style: normal; color: #333;}
+h5, .h5{font-size:108%; font-weight:bold; font-style: normal; color:#AE0345;}
+h6, .h6{font-size:108%; font-weight:normal; font-style: italic; color:#333;}
+/* if additional headings are needed they should be created via additional classes, never via location dependant styling */
+.category{font-size:108%; font-weight:normal; font-style: normal; text-transform:uppercase; color: #333;}
+.category a{color: #333;}
+/** 
+ * Spacing classes 
+ * Should be used to modify the default spacing between objects (not between nodes of the same object)
+ * Please use judiciously. You want to be using defaults most of the time, these are exceptions! 
+ * <type><location><size>
+ */
+ /* ====== Default spacing ====== */
+h1, h2, h3, h4, h5, h6, ul, ol,dl, p,blockquote, .media {margin:10px;}
+h1, h2, h3, h4, h5, h6,img{padding-bottom:0px;}
+pre{margin: 10px;}
+table h1,table h2,table h3, table h4, table h5, table h6, table p, table ul, table ol, table dl{padding:0;}
+ 
+/* spacing helpers
+p,m = padding,margin
+a,t,r,b,l,h,v = all,top,right,bottom,left,horizontal,vertical
+s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
+*/
+
+.ptn,.pvn,.pan{padding-top:0px !important}
+.pts,.pvs,.pas{padding-top:5px !important}
+.ptm,.pvm,.pam{padding-top:10px !important}
+.ptl,.pvl,.pal{padding-top:20px !important}
+.prn,.phn,.pan{padding-right:0px !important}
+.prs,.phs,.pas{padding-right:5px !important}
+.prm,.phm,.pam{padding-right:10px !important}
+.prl,.phl,.pal{padding-right:20px !important}
+.pbn,.pvn,.pan{padding-bottom:0px !important}  
+.pbs,.pvs,.pas{padding-bottom:5px !important}
+.pbm,.pvm,.pam{padding-bottom:10px !important}
+.pbl,.pvl,.pal{padding-bottom:20px !important}
+.pln,.phn,.pan{padding-left:0px !important}
+.pls,.phs,.pas{padding-left:5px !important}
+.plm,.phm,.pam{padding-left:10px !important}
+.pll,.phl,.pal{padding-left:20px !important}
+.mtn,.mvn,.man{margin-top:0px !important}
+.mts,.mvs,.mas{margin-top:5px !important}
+.mtm,.mvm,.mam{margin-top:10px !important}
+.mtl,.mvl,.mal{margin-top:20px !important}
+.mrn,.mhn,.man{margin-right:0px !important}
+.mrs,.mhs,.mas{margin-right:5px !important}
+.mrm,.mhm,.mam{margin-right:10px !important}
+.mrl,.mhl,.mal{margin-right:20px !important}
+.mbn,.mvn,.man{margin-bottom:0px !important}  
+.mbs,.mvs,.mas{margin-bottom:5px !important}
+.mbm,.mvm,.mam{margin-bottom:10px !important}
+.mbl,.mvl,.mal{margin-bottom:20px !important}
+.mln,.mhn,.man{margin-left:0px !important}
+.mls,.mhs,.mas{margin-left:5px !important}
+.mlm,.mhm,.mam{margin-left:10px !important}
+.mll,.mhl,.mal{margin-left:20px !important}
+
+/** 
+ * Data Table 
+ * Allows you to align various table cells so that the alignment class can be placed on either the table, table row, or table cell 
+ * Cell takes precedence over table row and table
+ * Table row takes precedence over table
+ */
+.data{position:relative; zoom:1;vertical-align: top;text-align: left; /*border-right:solid 1px transparent;*//* border fixes a FF2 bug which causes the data table to overlay its borders*/}
+.data table {width:100%; table-layout:fixed;}
+th, td{/*vertical-align:top;*/}
+/* horizontal alignment */
+.txtC, table .txtC, table tr .txtC{text-align:center;}
+.txtL, table .txtL, table tr .txtL{text-align:left;}
+.txtR, table .txtR, table tr .txtR{text-align:right;}
+/* vertical alignment */
+.txtT, table .txtT, table tr .txtT{vertical-align:top;}
+.txtB, table .txtB, table tr .txtB{vertical-align:bottom;}
+.txtM, table .txtM, table tr .txtM{vertical-align:middle;}
+.data th,.data td{padding:3px 20px}
+
+/* core */
+
+
+/*@import url(core/template/template_debug.css?jcb=1321963669);*/
+
+/*@import url(core/grid/grids_debug.css?jcb=1321963669);*/
+
+/*@import url(core/module/mod_skins.css?jcb=1321964229);*/
+/*@import url(core/module/mod_debug.css?jcb=1321963669);*/
+
+/*@import url(core/media/media_debug.css?jcb=1321963669);*/
+
+
+
+
+/*@import url(core/table/table_skins.css?jcb=1321963669);*/
+/*@import url(core/table/table_debug.css?jcb=1321963669);*/
+
+
+/*@import url("plugins/plugins.css?jcb=1321964229");*/
+
