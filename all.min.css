@@ -5,9 +5,10 @@ http://developer.yahoo.net/yui/license.txt
 version: 3.0.0pr2
 */
 /* reset */
-html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
 /* fonts */
 body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+
 /* **************** TEMPLATE ***************** */
 /* ====== Page Head, Body, and Foot ====== */
 body{_text-align:center;}/* IE5.5 */
@@ -42,6 +43,7 @@ body{_text-align:center;}/* IE5.5 */
 .size3of5{width:60%;}
 .size4of5{width:80%;}
 .lastUnit{float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px;}
+
 /*
 Copyright (c) 2009, Nicole Sullivan. All rights reserved.
 Code licensed under the BSD License:
@@ -69,12 +71,6 @@ b.top, b.top b, b.bottom, b.bottom b{display:block;background-repeat:no-repeat;f
 .complex .bl, .complex .br{/*margin-top:0;*/}
 .complex .top{height:5px;}
 .complex .bottom{height:5px;/*margin-top:-10px;*/}
-/* pop */
-.pop{overflow:visible;margin: 10px 20px 20px 10px; background-position:left top;}
-.pop .inner{right:-10px; bottom:-10px; background-position:right bottom;padding:0 10px 10px 0;}
-.pop .tl, .pop .br{display:none;}
-.pop .bl{bottom:-10px;}
-.pop .tr{float:right;margin-right:-10px;_display:inline; /*fix double margin bug*/ }
 
 /* ====== media (requires mod.css) ====== */
 .media{overflow:hidden;*overflow:visible;zoom:1;}
@@ -96,41 +92,25 @@ code{color:#0B8C8F;}
 /* links */
 a {color: #2c4460; text-decoration: none;}
 a:focus, a:hover {text-decoration: underline;}
-a:focus{background-color:#FFFFCC;}
-a:visited { color:#005a9c; }
 /* ====== Lists ======*/
 /* numbered list */
-ol.simpleList li{list-style-type: decimal; margin-left:40px;}
+ol li{list-style-type: decimal; margin-left:40px;}
 /* standard list */
-ul.simpleList li{list-style-type:disc; margin-left:40px;}
+ul li{list-style-type: disc; margin-left:40px;}
+/* non-bulleted list */
+ul.plain li, ol.plain li{ list-style-type: none; margin-left:0;}
 /* ====== blockquote ====== */
 cite{display:block; text-align:right; padding-top: 10px;}
-/* ====== callout ====== */
-.callout{font-size:189%;color:#999999; font-style:italic;}
-.callout cite{display:block; text-align:right;padding-top: 30px; font-size:69.25%;}
-.callout span.quot{font-size: 500%; vertical-align: sub; color:#e2e2e2; line-height:25px; font-weight:bold;}
-.callout span.quotLast{vertical-align:middle;}
-/* ====== image treatments (get more from jason santa maria) ====== */
-.caption{font-size:13px; color:#666666; font-style:italic;padding-top:0;}
-/* will need to either
-1. find a way to capture the width of the caption in the width of the image or flash
-2. Set some default widths, mby use flickr widths?
-*/
-/* ====== special formatting classes ====== */
-.detail{color: #777; font-size:11px;display:block;}
-/* ====== images ====== */
-.icon{margin-right: 5px;}
+
 /* ====== Headings ====== */
 /* .h1-.h6 classes should be used to maintain the semantically appropriate heading levels - NOT for use on non-headings */
-h1, .h1{font-size:196%; font-weight:normal; font-style: normal; color:#AE0345;}
-h2, .h2{font-size:167%; font-weight:normal; font-style: normal; color:#AE0345;}
-h3, .h3{font-size:146.5%; font-weight:normal; font-style: normal; color:#DF2B72;}
-h4, .h4{font-size:123.1%; font-weight:normal; font-style: normal; color: #333;}
-h5, .h5{font-size:108%; font-weight:bold; font-style: normal; color:#AE0345;}
-h6, .h6{font-size:108%; font-weight:normal; font-style: italic; color:#333;}
-/* if additional headings are needed they should be created via additional classes, never via location dependant styling */
-.category{font-size:108%; font-weight:normal; font-style: normal; text-transform:uppercase; color: #333;}
-.category a{color: #333;}
+h1, .h1{font-size:196%; font-weight:normal; font-style: normal;}
+h2, .h2{font-size:167%; font-weight:normal; font-style: normal;}
+h3, .h3{font-size:146.5%; font-weight:normal; font-style: normal;}
+h4, .h4{font-size:123.1%; font-weight:normal; font-style: normal;}
+h5, .h5{font-size:108%; font-weight:bold; font-style: normal;}
+h6, .h6{font-size:108%; font-weight:normal; font-style: italic;}
+
 /** 
  * Spacing classes 
  * Should be used to modify the default spacing between objects (not between nodes of the same object)
@@ -188,9 +168,8 @@ s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
  * Cell takes precedence over table row and table
  * Table row takes precedence over table
  */
-.data{position:relative; zoom:1;vertical-align: top;text-align: left; /*border-right:solid 1px transparent;*//* border fixes a FF2 bug which causes the data table to overlay its borders*/}
-.data table {width:100%; table-layout:fixed;}
-th, td{/*vertical-align:top;*/}
+table {width:100%; table-layout:fixed;}
+th, td{vertical-align:top;padding:10px;}
 /* horizontal alignment */
 .txtC, table .txtC, table tr .txtC{text-align:center;}
 .txtL, table .txtL, table tr .txtL{text-align:left;}
@@ -199,7 +178,6 @@ th, td{/*vertical-align:top;*/}
 .txtT, table .txtT, table tr .txtT{vertical-align:top;}
 .txtB, table .txtB, table tr .txtB{vertical-align:bottom;}
 .txtM, table .txtM, table tr .txtM{vertical-align:middle;}
-.data th,.data td{padding:3px 20px}
 
 /* core */
 
@@ -208,7 +186,6 @@ th, td{/*vertical-align:top;*/}
 
 /*@import url(core/grid/grids_debug.css?jcb=1321963669);*/
 
-/*@import url(core/module/mod_skins.css?jcb=1321964229);*/
 /*@import url(core/module/mod_debug.css?jcb=1321963669);*/
 
 /*@import url(core/media/media_debug.css?jcb=1321963669);*/
@@ -216,7 +193,6 @@ th, td{/*vertical-align:top;*/}
 
 
 
-/*@import url(core/table/table_skins.css?jcb=1321963669);*/
 /*@import url(core/table/table_debug.css?jcb=1321963669);*/
 
 
