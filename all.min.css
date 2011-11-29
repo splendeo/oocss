@@ -83,6 +83,14 @@ b.top, b.top b, b.bottom, b.bottom b{display:block;background-repeat:no-repeat;f
 .complex .bl, .complex .br{/*margin-top:0;*/}
 .complex .top{height:5px;}
 .complex .bottom{height:5px;/*margin-top:-10px;*/}
+/* pop */
+.pop{overflow:visible;margin: 10px 20px 20px 10px; padding: 10px 0 0 10px; background-position:left top;}
+.pop .inner{position:relative;margin-right:-10px; margin-bottom:10px; background-position:right center;padding:0 10px 20px 0;}
+.pop .tl, .pop .br{display:none;}
+.pop .bl{left:-10px;bottom:-10px;}
+.pop .tr{float:right;margin:-10px -10px 0 0;_display:inline; /*fix double margin bug*/ }
+.pop .bottom{position:relative; background-position: right bottom; display:block; height:10px; top:10px; padding-right:10px;}
+.pop .bl{left:-10px;}
 
 /* ====== media (requires mod.css) ====== */
 .media{overflow:hidden;*overflow:visible;zoom:1;}
@@ -199,22 +207,43 @@ th, td{vertical-align:top;padding:10px;}
 /* core */
 
 
-/*@import url(core/template/template_debug.css?jcb=1321963669);*/
+/*@import url(core/template/template_debug.css?jcb=1322089363);*/
 
-/*@import url(core/grid/grids_debug.css?jcb=1321963669);*/
+/*@import url(core/grid/grids_debug.css?jcb=1322089363);*/
 
-/*@import url(core/module/mod_debug.css?jcb=1321963669);*/
+/*@import url(core/module/mod_debug.css?jcb=1322089363);*/
 
-/*@import url(core/media/media_debug.css?jcb=1321963669);*/
-
-
-
-
-/*@import url(core/table/table_debug.css?jcb=1321963669);*/
+/*@import url(core/media/media_debug.css?jcb=1322089363);*/
 
 
 
 
+/*@import url(core/table/table_debug.css?jcb=1322089363);*/
 
-/*@import url("plugins/plugins.css?jcb=1321964229");*/
+
+
+
+/* Allow grid divisions of 1/6 etc. */
+.size1of6{width:16.6666666%;}
+.size5of6{width:83.3333333%;}
+.offset1of6{padding-left:16.6666666%;}
+.offset5of6{padding-left:83.3333333%;}
+
+/* Allow grid divisions of 1/7 etc. */
+.size1of7{width:14.2857143%;}
+.size2of7{width:28.5714286%;}
+.size3of7{width:42.8571429%;}
+.size4of7{width:57.1428572%;}
+.size5of7{width:71.4285715%;}
+.size6of7{width:85.7142858%;}
+.ofsset1of7{padding-left:14.2857143%;}
+.ofsset2of7{padding-left:28.5714286%;}
+.ofsset3of7{padding-left:42.8571429%;}
+.ofsset4of7{padding-left:57.1428572%;}
+.ofsset5of7{padding-left:71.4285715%;}
+.ofsset6of7{padding-left:85.7142858%;}
+
+
+
+
 

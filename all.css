@@ -1,2 +1,3 @@
 @import url("core/core.css");
-/*@import url("plugins/plugins.css");*/
+@import url("plugins/grids6/grids6.css");
+@import url("plugins/grids7/grids7.css");

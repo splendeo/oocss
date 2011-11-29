@@ -25,3 +25,11 @@ b.top, b.top b, b.bottom, b.bottom b{display:block;background-repeat:no-repeat;f
 .complex .bl, .complex .br{/*margin-top:0;*/}
 .complex .top{height:5px;}
 .complex .bottom{height:5px;/*margin-top:-10px;*/}
+/* pop */
+.pop{overflow:visible;margin: 10px 20px 20px 10px; padding: 10px 0 0 10px; background-position:left top;}
+.pop .inner{position:relative;margin-right:-10px; margin-bottom:10px; background-position:right center;padding:0 10px 20px 0;}
+.pop .tl, .pop .br{display:none;}
+.pop .bl{left:-10px;bottom:-10px;}
+.pop .tr{float:right;margin:-10px -10px 0 0;_display:inline; /*fix double margin bug*/ }
+.pop .bottom{position:relative; background-position: right bottom; display:block; height:10px; top:10px; padding-right:10px;}
+.pop .bl{left:-10px;}
